@@ -1,71 +1,12 @@
+import Header from "./components/Header";
+import Navbar from "./components/Navbar";
+
 const App = () => {
   return (
 <div>
-  {/* Navbar Start */}
-  <nav className="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
-    <a href="index.html" className="navbar-brand ml-lg-3">
-      <h1 className="m-0 display-5"><span className="text-primary">Free</span>Folio</h1>
-    </a>
-    <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-      <span className="navbar-toggler-icon" />
-    </button>
-    <div className="collapse navbar-collapse px-lg-3" id="navbarCollapse">
-      <div className="navbar-nav m-auto py-0">
-        <a href="#home" className="nav-item nav-link active">Home</a>
-        <a href="#about" className="nav-item nav-link active">About</a>
-        <a href="#qualification" className="nav-item nav-link">Quality</a>
-        <a href="#skill" className="nav-item nav-link">Skill</a>
-        <a href="#service" className="nav-item nav-link">Service</a>
-        <a href="#portfolio" className="nav-item nav-link">Portfolio</a>
-        <a href="#testimonial" className="nav-item nav-link">Review</a>
-        <a href="#blog" className="nav-item nav-link">Blog</a>
-        <a href="#contact" className="nav-item nav-link">Contact</a>
-      </div>
-      <a href className="btn btn-outline-primary d-none d-lg-block">Hire Me</a>
-    </div>
-  </nav>
-  {/* Navbar End */}
-  {/* Video Modal Start */}
-  <div className="modal fade" id="videoModal" tabIndex={-1} role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div className="modal-dialog" role="document">
-      <div className="modal-content">
-        <div className="modal-body">
-          <button type="button" className="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">×</span>
-          </button>        
-          {/* 16:9 aspect ratio */}
-          <div className="embed-responsive embed-responsive-16by9">
-            <iframe className="embed-responsive-item" src id="video" allowscriptaccess="always" allow="autoplay" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  {/* Video Modal End */}
-  {/* Header Start */}
-  <div className="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style={{minHeight: '100vh'}}>
-    <div className="container">
-      <div className="row align-items-center">
-        <div className="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
-          <img className="img-fluid w-100 rounded-circle shadow-sm" src="img/profile.jpg" alt />
-        </div>
-        <div className="col-lg-7 text-center text-lg-left">
-          <h3 className="text-white font-weight-normal mb-3">I'm</h3>
-          <h1 className="display-3 text-uppercase text-primary mb-2" style={{WebkitTextStroke: '2px #ffffff'}}>Kate Winslet</h1>
-          <h1 className="typed-text-output d-inline font-weight-lighter text-white" />
-          <div className="typed-text d-none">Web Designer, Web Developer, Front End Developer, Apps Designer, Apps Developer</div>
-          <div className="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
-            <a href className="btn btn-outline-light mr-5">Download CV</a>
-            <button type="button" className="btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
-              <span />
-            </button>
-            <h5 className="font-weight-normal text-white m-0 ml-4 d-none d-sm-block">Play Video</h5>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  {/* Header End */}
+<Navbar/>
+<Header/>
+
   {/* About Start */}
   <div className="container-fluid py-5" id="about">
     <div className="container">
