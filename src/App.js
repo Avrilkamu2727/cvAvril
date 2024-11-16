@@ -12,7 +12,7 @@ const App = () => {
     <div className="collapse navbar-collapse px-lg-3" id="navbarCollapse">
       <div className="navbar-nav m-auto py-0">
         <a href="#home" className="nav-item nav-link active">Home</a>
-        <a href="#about" className="nav-item nav-link">About</a>
+        <a href="#about" className="nav-item nav-link active">About</a>
         <a href="#qualification" className="nav-item nav-link">Quality</a>
         <a href="#skill" className="nav-item nav-link">Skill</a>
         <a href="#service" className="nav-item nav-link">Service</a>
@@ -47,7 +47,7 @@ const App = () => {
     <div className="container">
       <div className="row align-items-center">
         <div className="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
-          <img className="img-fluid w-100 rounded-circle shadow-sm" src="assets/img/profile.jpg" alt />
+          <img className="img-fluid w-100 rounded-circle shadow-sm" src="img/profile.jpg" alt />
         </div>
         <div className="col-lg-7 text-center text-lg-left">
           <h3 className="text-white font-weight-normal mb-3">I'm</h3>
@@ -75,7 +75,7 @@ const App = () => {
       </div>
       <div className="row align-items-center">
         <div className="col-lg-5 pb-4 pb-lg-0">
-          <img className="img-fluid rounded w-100" src="assets/img/about.jpg" alt />
+          <img className="img-fluid rounded w-100" src="img/about.jpg" alt />
         </div>
         <div className="col-lg-7">
           <h3 className="mb-4">UI/UX Designer &amp; Web Developer</h3>
@@ -156,11 +156,19 @@ const App = () => {
   </div>
   {/* Qualification End */}
   {/* Skill Start */}
-  <section className="section-padding">
+  <div className="container-fluid py-5" id="skill">
+    <div className="container">
+      <div className="position-relative d-flex align-items-center justify-content-center">
+        <h1 className="display-1 text-uppercase text-white" style={{WebkitTextStroke: '1px #dee2e6'}}>Skills</h1>
+        <h1 className="position-absolute text-uppercase text-primary">My Skills</h1>
+      </div>
+      <div className="row align-items-center">
+        <div className="col-md-6">
+          <div className="skill mb-4">
+          <section className="section-padding">
       <div className="container">
         <div className="row">
           <div className="col-lg-10 col-12 text-center mx-auto">
-            <h2 className="mb-5">Welcome to EcoHabit</h2>
           </div>
           <div className="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
             <div className="featured-block d-flex justify-content-center align-items-center">
@@ -197,6 +205,11 @@ const App = () => {
         </div>
       </div>
     </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   {/* Skill End */}
   {/* Services Start */}
   <div className="container-fluid pt-5" id="service">
@@ -486,14 +499,9 @@ const App = () => {
     </div>
   </div>
   {/* Footer End */}
-  {/* Scroll to Bottom */}
-  <i className="fa fa-2x fa-angle-down text-white scroll-to-bottom" />
-  {/* Back to Top */}
-  <a href="#" className="btn btn-outline-dark px-0 back-to-top"><i className="fa fa-angle-double-up" /></a>
-  {/* JavaScript Libraries */}
-  {/* Contact Javascript File */}
-  {/* Template Javascript */}
+
 </div>
+
 
   )
 }
