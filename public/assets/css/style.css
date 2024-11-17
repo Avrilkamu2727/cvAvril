@@ -6,8 +6,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --blue: #007bff;
-  --indigo: #6610f2;
+  --blue: #3b5067;
+  --indigo: #00ff99;
   --purple: #6f42c1;
   --pink: #e83e8c;
   --red: #dc3545;
@@ -61,7 +61,7 @@ body {
   line-height: 1.5;
   color: #6c757d;
   text-align: left;
-  background-color: #7d5ffe;
+  background-color: #ffffff;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -152,13 +152,13 @@ sup {
 }
 
 a {
-  color: #27564e;
+  color: #0BCEAF;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #184a41;
+  color: #078571;
   text-decoration: underline;
 }
 
@@ -2763,7 +2763,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-info {
   color: #17a2b8;
-  border-color: #0f5964;
+  border-color: #17a2b8;
 }
 
 .btn-outline-info:hover {
@@ -3580,7 +3580,7 @@ input[type="button"].btn-block {
 
 .custom-control-input:checked ~ .custom-control-label::before {
   color: #fff;
-  border-color: #32897a;
+  border-color: #0BCEAF;
   background-color: #0BCEAF;
 }
 
@@ -3790,7 +3790,7 @@ input[type="button"].btn-block {
 }
 
 .custom-file-input:focus ~ .custom-file-label {
-  border-color: #0b5d4f;
+  border-color: #62f7df;
   box-shadow: 0 0 0 0.2rem rgba(11, 206, 175, 0.25);
 }
 
@@ -3872,7 +3872,7 @@ input[type="button"].btn-block {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #0d5347;
+  background-color: #0BCEAF;
   border: 0;
   border-radius: 1rem;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4073,8 +4073,8 @@ input[type="button"].btn-block {
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: #796dfc;
-  background-color: #1c7465;
+  color: #fff;
+  background-color: #0BCEAF;
 }
 
 .nav-fill > .nav-link,
