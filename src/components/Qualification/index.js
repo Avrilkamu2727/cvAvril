@@ -12,21 +12,28 @@ const Qualification = () => {
               <div className="border-left border-primary pt-2 pl-4 ml-2">
                 <div className="position-relative mb-4">
                   <i className="far fa-dot-circle text-primary position-absolute" style={{top: 2, left: '-32px'}} />
-                  <h5 className="font-weight-bold mb-1">Master In CSE</h5>
-                  <p className="mb-2"><strong>Cambridge University</strong> | <small>2000 - 2050</small></p>
-                  <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam</p>
+                  <h5 className="font-weight-bold mb-1">Timika Kindergarten Adventist Academic</h5>
+                  <p className="mb-2"><strong>Timika, Papua</strong> | <small>2000 - 2050</small></p>
                 </div>
                 <div className="position-relative mb-4">
                   <i className="far fa-dot-circle text-primary position-absolute" style={{top: 2, left: '-32px'}} />
-                  <h5 className="font-weight-bold mb-1">Master In CSE</h5>
-                  <p className="mb-2"><strong>Cambridge University</strong> | <small>2000 - 2050</small></p>
-                  <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam</p>
+                  <h5 className="font-weight-bold mb-1">Timika Elementary School Adventist Academic</h5>
+                  <p className="mb-2"><strong>Timika, Papua</strong> | <small>2000 - 2050</small></p>
                 </div>
                 <div className="position-relative mb-4">
                   <i className="far fa-dot-circle text-primary position-absolute" style={{top: 2, left: '-32px'}} />
-                  <h5 className="font-weight-bold mb-1">Master In CSE</h5>
-                  <p className="mb-2"><strong>Cambridge University</strong> | <small>2000 - 2050</small></p>
-                  <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam</p>
+                  <h5 className="font-weight-bold mb-1">Timika Junior High School Adventist Academic</h5>
+                  <p className="mb-2"><strong>Timika, Papua</strong> | <small>2000 - 2050</small></p>
+                </div>
+                <div className="position-relative mb-4">
+                  <i className="far fa-dot-circle text-primary position-absolute" style={{top: 2, left: '-32px'}} />
+                  <h5 className="font-weight-bold mb-1">Timika Senior High School Adventist Academic</h5>
+                  <p className="mb-2"><strong>Timika, Papua</strong> | <small>2000 - 2050</small></p>
+                </div>
+                <div className="position-relative mb-4">
+                  <i className="far fa-dot-circle text-primary position-absolute" style={{top: 2, left: '-32px'}} />
+                  <h5 className="font-weight-bold mb-1">Klabat University</h5>
+                  <p className="mb-2"><strong>Airmadidi, Nourth Sulawesi</strong> | <small>2000 - 2050</small></p>
                 </div>
               </div>
             </div>
@@ -37,19 +44,16 @@ const Qualification = () => {
                   <i className="far fa-dot-circle text-primary position-absolute" style={{top: 2, left: '-32px'}} />
                   <h5 className="font-weight-bold mb-1">Web Designer</h5>
                   <p className="mb-2"><strong>Soft Company</strong> | <small>2000 - 2050</small></p>
-                  <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam</p>
                 </div>
                 <div className="position-relative mb-4">
                   <i className="far fa-dot-circle text-primary position-absolute" style={{top: 2, left: '-32px'}} />
                   <h5 className="font-weight-bold mb-1">Web Designer</h5>
                   <p className="mb-2"><strong>Soft Company</strong> | <small>2000 - 2050</small></p>
-                  <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam</p>
                 </div>
                 <div className="position-relative mb-4">
                   <i className="far fa-dot-circle text-primary position-absolute" style={{top: 2, left: '-32px'}} />
                   <h5 className="font-weight-bold mb-1">Web Designer</h5>
                   <p className="mb-2"><strong>Soft Company</strong> | <small>2000 - 2050</small></p>
-                  <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam</p>
                 </div>
               </div>
             </div>
