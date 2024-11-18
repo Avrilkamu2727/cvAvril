@@ -8,9 +8,9 @@ const Skill = () => {
             </div>
             <div className="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
               <div className="featured-block d-flex justify-content-center align-items-center">
-                <a href="donate.html" className="d-block">
+                <a className="d-block">
                   <img src="assets/images/icons/hands.png" className="featured-block-image img-fluid" alt />
-                  <p className="featured-block-text">Become a <strong>volunteer</strong></p>
+                  <p className="featured-block-text"> <strong>HTML</strong></p>
                 </a>
               </div>
             </div>
@@ -18,7 +18,7 @@ const Skill = () => {
               <div className="featured-block d-flex justify-content-center align-items-center">
                 <a href="donate.html" className="d-block">
                   <img src="assets/images/icons/heart.png" className="featured-block-image img-fluid" alt />
-                  <p className="featured-block-text"><strong>Caring</strong> Earth</p>
+                  <p className="featured-block-text">CSS </p>
                 </a>
               </div>
             </div>
@@ -26,7 +26,7 @@ const Skill = () => {
               <div className="featured-block d-flex justify-content-center align-items-center">
                 <a href="donate.html" className="d-block">
                   <img src="assets/images/icons/receive.png" className="featured-block-image img-fluid" alt />
-                  <p className="featured-block-text">Healthy <strong>Living</strong></p>
+                  <p className="featured-block-text"> <strong>ReactJs</strong></p>
                 </a>
               </div>
             </div>
@@ -34,7 +34,7 @@ const Skill = () => {
               <div className="featured-block d-flex justify-content-center align-items-center">
                 <a href="donate.html" className="d-block">
                   <img src="assets/images/icons/scholarship.png" className="featured-block-image img-fluid" alt />
-                  <p className="featured-block-text"><strong>Scholarship</strong> Program</p>
+                  <p className="featured-block-text">Figma </p>
                 </a>
               </div>
             </div>

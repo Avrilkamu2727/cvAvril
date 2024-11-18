@@ -10,7 +10,6 @@ const Navbar = () => {
             <a href="#about" className="nav-item nav-link active">About</a>
             <a href="#qualification" className="nav-item nav-link active">Quality & Skill</a>
             <a href="#portfolio" className="nav-item nav-link active">Portfolio</a>    
-            <a href="#blog" className="nav-item nav-link active">Blog</a>
           </div>
         </div>
       </nav>
