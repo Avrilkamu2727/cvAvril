@@ -1,5 +1,7 @@
 import { getDatabase, ref, onValue } from "firebase/database";
 import { useEffect,useState } from "react";
+import { Fade , Bounce, Flash, HeadShake} from "react-awesome-reveal";
+
 const Header = () => {
     const [header, setHeader ] = useState ({})
     useEffect (() => {
@@ -11,8 +13,8 @@ const Header = () => {
         });
     }, []);
     return (
-        
-        <div className="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style={{minHeight: '100vh'}}>
+        <Bounce>
+                 <div className="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style={{minHeight: '100vh'}}>
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
@@ -26,6 +28,7 @@ const Header = () => {
           </div>
         </div>
       </div>
+        </Bounce>
     )
 }
 
