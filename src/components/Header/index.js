@@ -16,7 +16,7 @@ const Header = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
-              <img className="img-fluid w-100 rounded-circle shadow-sm" src="assets/img/profile.jpg" alt />
+              <img className="img-fluid w-100 rounded-circle shadow-sm" src={header.img1|| ""} alt />
             </div>
             <div className="col-lg-7 text-center text-lg-left">
               <h2 className="display text-uppercase text-primary mb-2" style={{WebkitTextStroke: '2px #000000'}}>{header.title2}</h2>

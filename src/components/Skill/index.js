@@ -20,7 +20,7 @@ const Skill = () => {
             <div className="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
               <div className="featured-block d-flex justify-content-center align-items-center">
                 <a className="d-block">
-                  <img src="assets/images/icons/hands.png" className="featured-block-image img-fluid" alt />
+                  <img src={skill.imghtml|| ""} className="featured-block-image img-fluid" alt />
                   <p className="featured-block-text"> <strong>{skill.html}</strong></p>
                 </a>
               </div>
@@ -28,7 +28,7 @@ const Skill = () => {
             <div className="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0 mb-md-4">
               <div className="featured-block d-flex justify-content-center align-items-center">
                 <a href="donate.html" className="d-block">
-                  <img src="assets/images/icons/heart.png" className="featured-block-image img-fluid" alt />
+                  <img src={skill.imgcss|| ""} className="featured-block-image img-fluid" alt />
                   <p className="featured-block-text">{skill.css} </p>
                 </a>
               </div>
@@ -36,7 +36,7 @@ const Skill = () => {
             <div className="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0 mb-md-4">
               <div className="featured-block d-flex justify-content-center align-items-center">
                 <a href="donate.html" className="d-block">
-                  <img src="assets/images/icons/receive.png" className="featured-block-image img-fluid" alt />
+                  <img src={skill.imgjs|| ""}className="featured-block-image img-fluid" alt />
                   <p className="featured-block-text"> <strong>{skill.js}</strong></p>
                 </a>
               </div>
@@ -44,7 +44,7 @@ const Skill = () => {
             <div className="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
               <div className="featured-block d-flex justify-content-center align-items-center">
                 <a href="donate.html" className="d-block">
-                  <img src="assets/images/icons/scholarship.png" className="featured-block-image img-fluid" alt />
+                  <img src={skill.imgf|| ""} className="featured-block-image img-fluid" alt />
                   <p className="featured-block-text">{skill.f} </p>
                 </a>
               </div>

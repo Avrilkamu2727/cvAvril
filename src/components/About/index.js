@@ -19,7 +19,7 @@ const About = () => {
           </div>
           <div className="row align-items-center">
             <div className="col-lg-5 pb-4 pb-lg-0">
-              <img className="img-fluid rounded w-100" src="assets/img/about.jpg" alt />
+              <img className="img-fluid rounded w-100" src={about.img1|| ""} alt />
             </div>
             <div className="col-lg-7">
               <h3 className="mb-4">{about.aak1}</h3>
