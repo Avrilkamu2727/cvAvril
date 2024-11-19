@@ -1,10 +1,21 @@
+import { getDatabase, ref, onValue } from "firebase/database";
+import { useEffect,useState } from "react";
 const Gallery = () => {
+    const [gallery, setGallery] = useState ({})
+    useEffect (() => {
+        const db = getDatabase();
+        const galleryRef = ref(db, "gallery");
+        onValue(galleryRef, (snapshot) => {
+            const data = snapshot.val();
+            setGallery(data);
+        });
+    }, []);
     return (
         <div className="container-fluid pt-5 pb-3" id="portfolio">
         <div className="container">
           <div className="position-relative d-flex align-items-center justify-content-center">
-            <h1 className="display-1 text-uppercase text-white" style={{WebkitTextStroke: '1px #dee2e6'}}>Gallery</h1>
-            <h1 className="position-absolute text-uppercase text-primary">My Portfolio</h1>
+            <h1 className="display-1 text-uppercase text-white" style={{WebkitTextStroke: '1px #dee2e6'}}> {gallery.title}</h1>
+            <h1 className="position-absolute text-uppercase text-primary">{gallery.mp}</h1>
           </div>
           <div className="row">
             <div className="col-12 text-center mb-2">
